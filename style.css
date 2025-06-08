@@ -1,0 +1,22 @@
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #aee1f9;
+    font-family: sans-serif;
+}
+#gameCanvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+#info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    z-index: 10;
+}
